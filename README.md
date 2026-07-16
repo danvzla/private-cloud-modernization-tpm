@@ -84,3 +84,18 @@ open index.html
 Created by **Daniel Mazzini**, Principal Solutions Architect and Senior Technical Program Manager.
 
 [SolTelCo](https://www.soltelco.com/)
+
+
+## v4 focused rebuild
+
+- Fixed the Discovery-page mobile overflow using CSS Grid containment and responsive table scrolling.
+- Reconciled the Open Risks metric with the visible RAID register.
+- Expanded Path A governance to eight risks, three assumptions, two issues, four dependencies, five decisions, and a detailed technical RACI.
+- Added role-specific Path A ownership including VCF Architect, SDDC Manager Lead, vSphere Lead, NSX Lead, vSAN / Storage Lead, Change Manager, and Operations Owner.
+- Added distinct program positions, health states, current sprints, and epic progress profiles for all seven scenarios.
+- Preserved the Dashboard / Plan / Delivery / Governance / Closure structure and all export features.
+
+
+## v5 Plan tab fix
+
+The Plan tab was failing because the timeline renderer referenced by `plan(k)` was missing from the rebuilt JavaScript. The `timelineHtml(k)` function has been restored and the script passes a JavaScript syntax check.
