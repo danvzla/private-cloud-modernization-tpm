@@ -54,7 +54,7 @@ Each scenario includes:
 
 This is an independent personal portfolio created solely to demonstrate Technical Program Management capabilities.
 
-It uses fictional, non-client data. No client, customer, confidential, proprietary, or restricted information is included.
+It uses illustrative, non-client data created solely for this portfolio. No client, customer, confidential, proprietary, or restricted information is included.
 
 Product names are used only to provide illustrative technology context. All scenarios, sequences, schedules, effort assumptions, risks, work items, forecasts, and status indicators are examples only.
 
